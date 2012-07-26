@@ -2,6 +2,7 @@ use inc::Module::Install;
 name 'App-LoadWatcher';
 all_from 'lib/App/LoadWatcher.pm';
 
+requires 'Pod::Usage';
 requires 'Unix::Uptime';
 
 tests 't/*.t';
